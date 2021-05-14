@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{70D07702-3765-4927-A360-D670612DEF34}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{70D07702-3765-4927-A360-D670612DEF34}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="Leaf_Movement" ID="{A7CDAB71-216E-499C-B67D-09AC78AC47F1}" ShortID="185172389">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Leaf_Movement_Low" ID="{C0E9D318-943C-4440-A69E-E9E71D838CE3}" ShortID="864997579">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{03ED318C-268A-42F9-A445-475511607AF9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LeafMovement_Low_01" ID="{5088D85D-D5D0-4EA1-939D-ED31E4E254A7}" ShortID="413949258">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_Low_01" ID="{0C0637FC-43B2-47F0-A152-0073C878E855}">
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_Low_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="59334016"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_Low_01" ID="{0C0637FC-43B2-47F0-A152-0073C878E855}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_Low_02" ID="{5E773341-1E32-42AD-98E5-1100BBB06C19}" ShortID="339776055">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_Low_02" ID="{25EF4E02-5179-4F46-B0D5-0960C924CACB}">
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_Low_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="368388430"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_Low_02" ID="{25EF4E02-5179-4F46-B0D5-0960C924CACB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_Low_03" ID="{27DFDC87-EF7E-43A8-AE5E-D1B615D265C5}" ShortID="648725336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_Low_03" ID="{9673F2FC-2FAC-499C-9107-2C0430BADF79}">
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_Low_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="296742418"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_Low_03" ID="{9673F2FC-2FAC-499C-9107-2C0430BADF79}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_Low_04" ID="{9B5455D3-FE0C-4BAC-B643-2015808C887C}" ShortID="46958899">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_Low_04" ID="{B15EC3B3-C0FF-4D6A-9AEA-0DAF44C8C5BC}">
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_Low_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="906246835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_Low_04" ID="{B15EC3B3-C0FF-4D6A-9AEA-0DAF44C8C5BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_Low_05" ID="{3A933031-0105-459D-9445-1E3A67F2EB3E}" ShortID="501901000">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_Low_05" ID="{B52C42B0-7810-4724-AE91-66D6769978BF}">
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_Low_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="154888131"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_Low_05" ID="{B52C42B0-7810-4724-AE91-66D6769978BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Leaf_Movement_High" ID="{7484C628-F425-4784-875C-2A06C8765B06}" ShortID="651058972">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="8">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6769ECD4-D559-4F0C-9BA3-2A55AC5A8627}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LeafMovement_High_01" ID="{4BDB6D0F-9E9B-4817-A806-44C79FC443D7}" ShortID="222602122">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_High_01" ID="{32549E4D-6825-4C79-B037-0B6FC95DCA6C}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="11.027027027027"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_High_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="666594684"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_High_01" ID="{32549E4D-6825-4C79-B037-0B6FC95DCA6C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_High_02" ID="{5E38D3FF-BB46-4E35-A6C7-C1A1236779CA}" ShortID="23134072">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_High_02" ID="{17963C5F-ACA1-4439-9B18-35D7A85C47B5}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="9.98483849703362"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_High_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="765256063"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_High_02" ID="{17963C5F-ACA1-4439-9B18-35D7A85C47B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_High_03" ID="{96D29762-C82C-415C-9DB6-F82C12822007}" ShortID="582814944">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_High_03" ID="{BC4109A2-1D0A-4734-99E1-8F576AA5FB39}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="10.0296638101516"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_High_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1035585106"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_High_03" ID="{BC4109A2-1D0A-4734-99E1-8F576AA5FB39}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_High_04" ID="{0DEAFFCB-A0A0-442A-A4EE-357BC7CD5EE2}" ShortID="736653465">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_High_04" ID="{BBE58069-FAC6-476C-AABA-72B708A7E8F6}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="9.0210942649967"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_High_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="268712014"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_High_04" ID="{BBE58069-FAC6-476C-AABA-72B708A7E8F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LeafMovement_High_05" ID="{7F019CF7-43C0-47C8-BF49-419756AF20DC}" ShortID="105739503">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_High_05" ID="{6B94EBA0-122A-431B-AE24-9AFAC121FB8C}">
+											<PropertyList>
+												<Property Name="LoopEnd" Type="Real64" Value="10.0184574818721"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_High_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197288156"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_High_05" ID="{6B94EBA0-122A-431B-AE24-9AFAC121FB8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Leaf_Movement_Mid" ID="{94EBFFC2-E33C-4405-A1D2-DEA8AB3D4EF6}" ShortID="676029766">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CEFDFD79-92B7-4A83-BC40-1131F7ECDFB1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="LeafMovement_Mid" ID="{5E20B223-1FEB-48FD-95CB-D0F6B946BFCC}" ShortID="995387073">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LeafMovement_Mid" ID="{79F6E7EA-E3D6-43E4-B15B-4D0E57F6296A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.33618984838497"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.392221489782465"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.448253131179961"/>
+												<Property Name="TrimEnd" Type="Real64" Value="37.4982182893894"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>LeafMovement_Mid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="814280512"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LeafMovement_Mid" ID="{79F6E7EA-E3D6-43E4-B15B-4D0E57F6296A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="Low" ID="{1BD88E3D-6573-438D-AFB3-DD742209F89D}" ShortID="64268200">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{93EA28A0-93AE-46D3-946E-1B37D2BDC652}" ShortID="556818802">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Movement" ID="{7753B14B-61E9-47B5-91EB-EACE41C332C8}" WorkUnitID="{F309BD53-4FED-4908-86C0-98E3C136C183}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D42F360F-5472-493A-88CD-F56535325FCF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>30.10676</XPos>
+														<YPos>-0.15651</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>59.64413</XPos>
+														<YPos>-3.27157</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>70.10676</XPos>
+														<YPos>-4.0824</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Leaf_Movement_Low" ID="{C0E9D318-943C-4440-A69E-E9E71D838CE3}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Mid" ID="{5A26C0E8-534E-4ACC-9C27-47EE3F8BC982}" ShortID="431126505">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{33A53840-A222-48A2-B913-D533A6F859DA}" ShortID="50728603">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Movement" ID="{7753B14B-61E9-47B5-91EB-EACE41C332C8}" WorkUnitID="{F309BD53-4FED-4908-86C0-98E3C136C183}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DF3E0333-CA4A-449F-8819-86BCE2EB0086}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>31.53025</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>42.93194</XPos>
+														<YPos>-5.34718</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Leaf_Movement_Mid" ID="{94EBFFC2-E33C-4405-A1D2-DEA8AB3D4EF6}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="High" ID="{5E127A93-9D5D-48C5-9E57-3A756175C3C3}" ShortID="370434433">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{B38AA543-0983-4502-88D4-6529055EB360}" ShortID="110495765">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Blossom" ID="{8FEF232C-75C8-45CC-AFD9-8B1958E2A6EA}" WorkUnitID="{F309BD53-4FED-4908-86C0-98E3C136C183}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{33D05648-A8D1-4AF7-BF1D-CA1A83BB5A64}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>44</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>50.81124</XPos>
+														<YPos>47</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A7049267-6751-4655-9A42-89AC1C80BEEF}" ShortID="647100875">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Movement" ID="{7753B14B-61E9-47B5-91EB-EACE41C332C8}" WorkUnitID="{F309BD53-4FED-4908-86C0-98E3C136C183}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1E5B07D1-B59B-42B0-B23B-EEBBF3AA84E0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>11.05</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>49.28131</XPos>
+														<YPos>-1.89951</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Leaf_Movement_High" ID="{7484C628-F425-4784-875C-2A06C8765B06}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<RandomSequenceContainer Name="Growth_Stop" ID="{DE6A2C3C-B07F-4365-8506-39F9BC5DBB64}" ShortID="282710845">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Shine_01" ID="{659A1B87-DECE-4785-BA5C-C614085A8D3E}" ShortID="550338649">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shine_01" ID="{D77E848E-F12D-49FB-BE59-EF58643D2697}">
+									<Language>SFX</Language>
+									<AudioFile>Shine_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="753176445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shine_01" ID="{D77E848E-F12D-49FB-BE59-EF58643D2697}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shine_02" ID="{8CBB0DC4-E279-4035-BFBB-C26E0E52AB7B}" ShortID="311835441">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shine_02" ID="{DF0394D7-545C-441A-B5D4-A699F394363D}">
+									<Language>SFX</Language>
+									<AudioFile>Shine_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="237965506"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shine_02" ID="{DF0394D7-545C-441A-B5D4-A699F394363D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shine_03" ID="{1121ABE7-E499-46BF-95E2-73515947DD6F}" ShortID="546389321">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shine_03" ID="{6FF43E31-E716-4492-81DD-D2741648CEDF}">
+									<Language>SFX</Language>
+									<AudioFile>Shine_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="587462837"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shine_03" ID="{6FF43E31-E716-4492-81DD-D2741648CEDF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shine_04" ID="{6B3BBFDD-B721-488C-BC7B-BC5442D270A3}" ShortID="727017963">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shine_04" ID="{70E43149-2E40-46E5-9EA3-8EC8ADCED7E5}">
+									<Language>SFX</Language>
+									<AudioFile>Shine_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="742124412"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shine_04" ID="{70E43149-2E40-46E5-9EA3-8EC8ADCED7E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shine_05" ID="{67ED13B9-4C52-4AEE-9E75-BC995AADF24E}" ShortID="579040527">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E66F41E8-FF83-4DBA-8D94-EF5147544C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{75857F45-54C5-498B-89E0-E14B3BB92B17}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Shine_05" ID="{9E9308A5-5259-4693-8274-2CF2CE3523AF}">
+									<Language>SFX</Language>
+									<AudioFile>Shine_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="85529368"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Shine_05" ID="{9E9308A5-5259-4693-8274-2CF2CE3523AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

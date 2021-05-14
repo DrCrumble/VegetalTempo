@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8AB5ED4F-C671-4571-BCE0-AE623EA9898E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_music_loop" ID="{B5F2058E-7730-44CB-8AA6-476444C25814}">
+					<ChildrenList>
+						<Action Name="" ID="{A00EC229-EEB7-424F-B48F-6DAB06C35758}" ShortID="529476923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicLoop" ID="{7A1F8C60-298C-44E7-A446-7ECFAE8D94C6}" WorkUnitID="{FBA26E4E-D3F2-41D2-BBA3-60DB1ECE309E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E5690EDE-558F-4161-B3AA-98636AABC5F5}" ShortID="200881905">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leaf_Movement" ID="{A7CDAB71-216E-499C-B67D-09AC78AC47F1}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Growth_Stop" ID="{76A8F5B4-E31F-4A2F-9750-F8CBFE428DC2}">
+					<ChildrenList>
+						<Action Name="" ID="{A03141F7-D721-4232-BDC7-73BBEAE4C3F6}" ShortID="558797129">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Growth_Stop" ID="{DE6A2C3C-B07F-4365-8506-39F9BC5DBB64}" WorkUnitID="{70D07702-3765-4927-A360-D670612DEF34}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AE99BF7C-59C9-4808-A074-5C97DBDB324E}" ShortID="108944276">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Growth_Stop" ID="{493D4015-A02E-4653-9F06-399B234E8F1C}" WorkUnitID="{7BA3A096-3881-4643-96AE-4CAACBBBBED1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
